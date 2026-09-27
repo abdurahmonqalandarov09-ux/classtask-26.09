@@ -142,6 +142,7 @@
 
 # test 10
 
-# people = [('Ali', 22), ('Sara', 19), ('Bob', 25)]
+people = [('Ali', 22), ('Sara', 19), ('Bob', 25)]
 
-# srt = lambda 
+people = sorted(people, key=lambda x:x[1])
+print(people)
